@@ -1,0 +1,10 @@
+proc createRowofShapes(int $rowcount, int $columncount) {
+    for ($i = 0; $i < $rowcount; $i++)
+    for ($j = 0; $j < $columncount; $j++) {
+    polyCube;
+    move -r ($i*2) 0 ($j*2);
+ 
+  }
+
+}
+createRowofShapes(3, 5)
